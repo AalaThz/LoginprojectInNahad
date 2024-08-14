@@ -1,0 +1,52 @@
+﻿@model LoginProjectUI.Models.UsersViewModel
+@{
+    ViewData["Title"] = "SearchById";
+}
+
+<h1>SearchById</h1>
+
+
+<form asp-controller="UserInfo" asp-action="SearchById" method="post">
+    <div class="form-group">
+        <label asp-for="UserId"></label>
+        <input type="text" asp-for="UserId" class="form-control" placeholder="UserId" />
+    </div>
+    <br />
+    <div>
+        <button type="submit" class="btn btn-primary">Search By UserId</button>
+    </div>
+</form>
+
+@if (Model != null && Model.UserId != null)
+{
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th scope="col">UserId</th>
+                <th scope="col">UserName</th>
+                <th scope="col">Name</th>
+                <th scope="col">Family</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.UserId</td>
+                <td>@Model.UserName</td>
+                <td>@Model.Name</td>
+                <td>@Model.Family</td>
+
+            </tr>
+        </tbody>
+
+
+    </table>
+}
+else if (Model != null)
+{
+    <div class="alter alter-info mt-4">
+        User not found!!!
+    </div>
+}
+
+

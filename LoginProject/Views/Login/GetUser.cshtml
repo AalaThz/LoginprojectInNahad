@@ -1,0 +1,15 @@
+﻿@model LoginProjectUI.Models.UsersViewModel
+@{
+    ViewData["Title"] = "SearchById";
+}
+
+<h1>SearchById</h1>
+<h1>Aala Taherzadeh</h1>
+
+<form asp-controller="Login" asp-action="SearchById" method="post">
+    <div>
+        <label asp-for="UserId"></label>
+        <input type="text" asp-for="UserId" class="form-control" />
+    </div>
+</form>
+

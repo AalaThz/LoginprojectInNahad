@@ -1,0 +1,33 @@
+﻿
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<!---design By Mellatweb.com-->
+<head>
+    <meta charset="utf-8">
+    <title>فروشگاه</title>
+
+    <partial name="_MetaTags" />
+
+    <partial name="_Styles" />
+
+
+</head>
+<body>
+    <a href="javascript:%20void(0);" id="light-dark-mode" class="mode-btn text-white rounded-end"><i class="mdi mdi-sun-compass bx-spin mode-light"></i><i class="mdi mdi-moon-waning-crescent mode-dark"></i></a>
+    <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+
+    <partial name="_Header" />
+
+    @RenderBody()
+
+    <partial name="_Footer" />
+
+    <partial name="_Modals" />
+
+    <partial name="_Scripts" />
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
