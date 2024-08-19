@@ -19,7 +19,7 @@ namespace LoginProjectInfrastructure.Repositories.Implement
             _db=db;
         }
 
-        public List<LastNews> GetAllNews()
+        public List<LastNews> GetAll()
         {
             return _db.LatestNews.ToList();
         }

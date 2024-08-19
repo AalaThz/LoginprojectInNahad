@@ -9,6 +9,9 @@ namespace LoginProjectInfrastructure.Repositories.Interface
 {
     public interface IReasonChoiceRepository
     {
-        List<ReasonChoice> GetAllReasonChoice();
+        Task<List<ReasonChoice>> GetAllAsync();
+        Task<ReasonChoice> GetByIdAsync(int id);
+        void Update(ReasonChoice reason);
+        void Add(ReasonChoice reasonChoice);
     }
 }

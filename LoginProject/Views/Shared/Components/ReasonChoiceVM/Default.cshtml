@@ -1,12 +1,14 @@
 ﻿@using LoginProjectDomain.ViewModels
-@model IEnumerable<ReasonChoiceViewModel>
+@model ReasonChoiceModelViewModel
+
 
 @{
     ViewData["Title"] = "ReasonChoiceList";
 }
 
 
-@if (Model != null && Model.Any())
+@* @if (Model != null && Model..Any()) *@
+@if (Model != null && Model.ReasonChoiceList.Any())
 {
 
     <section class="section">
@@ -14,7 +16,13 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 align-self-center">
                     <div class="mb-4 mb-lg-0">
-                        <div class="p-2 bg-soft-primary d-inline-block rounded mb-4"><div class="icon-xxl uim-icon-primary"><i class="uim uim-cube"></i></div></div>
+                        <div class="p-2 bg-soft-primary d-inline-block rounded mb-4">
+                            <div class="icon-xxl uim-icon-primary">
+                                 <i class="@Model.ReasonChoice.Icon">
+
+                                </i>
+                            </div>
+                        </div>
                         <h3 class="">چرا ما را انتخاب کنید؟</h3>
                         <p class="text-muted mb-4">زیرا در اوقات فراغت، زمانی که آزاد هستیم، این اختیار را داریم که هیچ چیزی را انتخاب نکنیم و مانع آن شویم، که کمترین آن بیشترین است.</p>
                         <a href="#" class="btn btn-outline-primary">بیشتر بدانید</a>
@@ -23,11 +31,11 @@
 
                 <div class="col-lg-8 align-self-center">
                     <div class="row">
-                        @foreach (var item in Model)
+                        @foreach (var item in Model.ReasonChoiceList)
                         {
                             <div class="col-md-6">
                                 <div class="wc-box rounded text-center wc-box-primary p-4 mt-md-5">
-                                    <div class="wc-box-icon"><i class="mdi mdi-collage"></i></div>
+                                    <div class="wc-box-icon"><i class="@item.Icon"></i></div>
                                     <h5 class="fw-bold mb-2 wc-title mt-4">@item.Title</h5>
                                     <p class="text-muted mb-0 font-size-15 wc-subtitle">@item.Description</p>
                                 </div>

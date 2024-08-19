@@ -1,0 +1,25 @@
+﻿@using LoginProjectDomain.ViewModels;
+@model ReasonChoiceModelViewModel
+
+<h1>
+    Update
+</h1>
+
+<form asp-action="Save" asp-controller="ReasonChoiceAdmin" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.ReasonChoice.Id">شناسه</label>
+        <input type="text" asp-for="@Model.ReasonChoice.Id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ReasonChoice.Title">شناسه</label>
+        <input type="text" asp-for="@Model.ReasonChoice.Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.ReasonChoice.Description">شناسه</label>
+        <input type="text" asp-for="@Model.ReasonChoice.Description" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">ذخیره</button>
+
+</form>

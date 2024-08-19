@@ -1,23 +1,33 @@
 ﻿<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
     <div class="container">
-        <a class="navbar-brand logo" href="layout-one-1.html"><img src="~/Theme/images/logo-dark.png" alt="" class="logo-dark" height="24"><img src="~/Theme/images/logo-light.png" alt="" class="logo-light" height="24"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="mdi mdi-menu"></i></button><div class="collapse navbar-collapse" id="navbarCollapse">
+        <a class="navbar-brand logo" href="layout-one-1.html">
+            <img src="~/Theme/images/logo-dark.png" alt="" class="logo-dark" height="24"/>
+            <img src="~/Theme/images/logo-light.png" alt="" class="logo-light" height="24" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mx-auto navbar-center" id="navbar-navlist">
                 <li class="nav-item"><a data-scroll href="#home" class="nav-link">صفحه اصلی</a></li>
                 <li class="nav-item"><a data-scroll href="#features" class="nav-link">امکانات</a></li>
                 <li class="nav-item"><a data-scroll href="#pricing" class="nav-link">قیمت گذاری</a></li>
                 <li class="nav-item"><a data-scroll href="#blog" class="nav-link">وبلاگ</a></li>
                 <li class="nav-item"><a data-scroll href="#contact" class="nav-link">با ما تماس بگیرید</a></li>
-                
             </ul>
-            <ul class="navbar-nav navbar-center" >
+
+            <ul class="navbar-nav mx-auto navbar-center" id="navbar-navlist">
                 @if (User.Identity.IsAuthenticated)
                 {
-                    @User.Claims.FirstOrDefault(c => c.Type == "FullName").Value
-                    <span>خوش آمدید</span>
-                    @* <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline my-2 my-lg-0"> *@
-                    <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline my-2 my-lg-0">
-                        <button type="submit" class="btn text-dark">خروج</button>
-                    </form>
+                    <li class="nav-item">
+                        <span class="nav-link">خوش آمدید , @User.Claims.FirstOrDefault(c => c.Type == "FullName").Value </span>
+
+                    </li>
+                    <li class="nav-item">
+                        <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline my-2 my-lg-0">
+                            <button type="submit" class="btn text-dark">خروج</button>
+                        </form>
+                    </li>
 
                     @* <li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModalCenter-1">خروج</a></li> *@
                 }
@@ -30,3 +40,6 @@
         </div>
     </div>
 </nav>
+
+
+

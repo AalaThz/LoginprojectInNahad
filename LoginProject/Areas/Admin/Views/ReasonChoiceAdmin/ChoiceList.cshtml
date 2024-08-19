@@ -1,0 +1,137 @@
+﻿@using LoginProjectDomain.ViewModels;
+@model ReasonChoiceModelViewModel
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Areas/Admin/Views/shared/_Layout.cshtml";
+}
+
+
+
+<div class="content-wrapper" style="min-height: 839px;">
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+           
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">جدول ریسپانسیو</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="جستجو">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <th>شماره</th>
+                                        <th>کاربر</th>
+                                        <th>تاریخ</th>
+                                        <th>وضعیت</th>
+                                        <th>دلیل</th>
+                                    </tr>
+
+                                    @if (Model != null && Model.ReasonChoiceList.Any())
+                                    {
+                                        
+                                    }
+
+                                    <tr>
+                                        <td>@Model.</td>
+                                        <td>محمد</td>
+                                        <td>۱۱-۷-۲۰۱۴</td>
+                                        <td><span class="badge badge-success">تایید شده</span></td>
+                                        <td>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+
+
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+
+            </tr>
+        </thead>
+
+
+
+        @foreach (var item in Model.ReasonChoiceList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+
+                <td>
+                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
+                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
+                    <a href="/admin/ReasonChoiceAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
+                    <a href="/admin/ReasonChoiceAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a> |
+
+                </td>
+
+
+                @* <td> <a class="btn btn-danger">حذف</a> </td>
+        <form>
+        <div class="form-group">
+        <label for="exampleFormControlInput1">@item.Id</label>
+        <input type="email" class="form-control">
+        </div>
+        <div class="form-group">
+        <label for="exampleFormControlInput1">@item.Title</label>
+        <input type="email" class="form-control">
+        </div>
+
+
+        <div class="form-group">
+        <label for="exampleFormControlTextarea1">@item.Description</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        </form> *@
+
+
+                @* <a asp-controller="Person" asp-action="DeletePerson" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> |
+        <a asp-action="Details" class="btn btn-primary" asp-route-id="@item.Id">جزئیات</a> |
+        <a asp-action="UpdatePersons" class="btn btn-warning" asp-route-id="@item.Id">ویرایش</a>
+        *@
+            </tr>
+        }
+
+    </table>
+
+
+
+
+
+
+
+

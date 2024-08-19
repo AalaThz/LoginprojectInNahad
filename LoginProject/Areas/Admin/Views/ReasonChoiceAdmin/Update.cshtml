@@ -1,0 +1,54 @@
+﻿@using LoginProjectDomain.ViewModels;
+@model ReasonChoiceViewModelUpdate
+
+
+<!------------------------------------------------------------------------------!>
+<div class="content-wrapper" style="min-height: 782px;">
+    <!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>فرم‌های عمومی</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-left">
+                    <li class="breadcrumb-item"><a href="#">خانه</a></li>
+                    <li class="breadcrumb-item active">فرم‌های عمومی</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+
+        <form  asp-action="Update" asp-controller="ReasonChoiceAdmin" method="post" role="form" class="full-width-form">
+            @* <div class="form-group">
+                <label asp-for="Id">شناسه</label>
+                @* <input type="text" asp-for="Id" class="form-control" name="Id" id="Id">
+                <input type="text" asp-for="Id" class="form-control" >
+            </div> *@
+
+
+            <div class="form-group">
+                <label asp-for="Title"> عنوان</label>
+                @* <input type="text" asp-for="Title" class="form-control" name="Title" id="Title"> *@
+                <input type="text" asp-for="Title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">توضیحات</label>
+                @* <input type="text" asp-for="Description" class=" form-control" name="Description" id="Description"> *@
+                <input type="text" asp-for="Description" class=" form-control" >
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- /.content -->
+

@@ -17,7 +17,7 @@ namespace LoginProjectUI.Models.Component
 
         public IViewComponentResult Invoke()
         {
-            var news = _lastNewsRepository.GetAllNews();
+            var news = _lastNewsRepository.GetAll();
             var newsList = new List<LastNewsViewModel>();
 
             foreach (var item in news)

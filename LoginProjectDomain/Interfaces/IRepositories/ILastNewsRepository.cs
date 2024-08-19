@@ -9,6 +9,6 @@ namespace LoginProjectDomain.Interfaces.IRepositories
 {
     public interface ILastNewsRepository
     {
-        List<LastNews> GetAllNews();
+        List<LastNews> GetAll();
     }
 }

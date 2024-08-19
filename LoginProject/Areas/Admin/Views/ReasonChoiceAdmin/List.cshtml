@@ -1,0 +1,128 @@
+﻿@using LoginProjectDomain.ViewModels;
+@model ReasonChoiceModelViewModel
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Areas/Admin/Views/shared/_Layout.cshtml";
+}
+
+
+
+<div class="content-wrapper" style="min-height: 839px;">
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">جدول ریسپانسیو</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="جستجو">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a asp-action="Add" asp-controller="ReasonChoiceAdmin" class="btn btn-primary">جدید</a>
+                        </div>
+
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <th>شناسه</th>
+                                        <th>عنوان</th>
+                                        <th>توضیحات</th>
+                                        
+                                    </tr>
+
+                                    @if (Model != null && Model.ReasonChoiceList.Any())
+                                    {
+
+                                        @foreach (var item in Model.ReasonChoiceList)
+                                        {
+                                            <tr>
+                                                <td>@item.Id</td>
+                                                <td>@item.Title</td>
+                                                <td>@item.Description</td>
+
+                                                <td>
+                                                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
+                                                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
+                                                    <a href="/admin/ReasonChoiceAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
+                                                    <a href="/admin/ReasonChoiceAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a> |
+
+                                                </td>
+
+
+                                            </tr>
+                                        }
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+
+        </tr>
+    </thead>
+
+
+
+    @foreach (var item in Model.ReasonChoiceList)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+
+            <td>
+                @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
+                @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
+                <a href="/admin/ReasonChoiceAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
+                <a href="/admin/ReasonChoiceAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a> |
+
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+
+
+
+
+
+
+
+
