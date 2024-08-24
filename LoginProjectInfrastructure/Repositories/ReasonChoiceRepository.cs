@@ -2,13 +2,8 @@
 using LoginProjectInfrastructure.Contexts;
 using LoginProjectInfrastructure.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LoginProjectInfrastructure.Repositories.Implement
+namespace LoginProjectInfrastructure.Repositories
 {
     public class ReasonChoiceRepository : IReasonChoiceRepository
     {
@@ -16,21 +11,12 @@ namespace LoginProjectInfrastructure.Repositories.Implement
 
         public ReasonChoiceRepository(MyContext db)
         {
-            _db=db;
+            _db = db;
         }
 
         public async Task<List<ReasonChoice>> GetAllAsync()
         {
-            try
-            {
             return await _db.ReasonChoices.ToListAsync();
-
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
 
         }
 
@@ -50,6 +36,12 @@ namespace LoginProjectInfrastructure.Repositories.Implement
             //var findReason = GetByIdAsync(reason.Id);
             //_db.Update(reason);
             _db.Entry(reason).State = EntityState.Modified; //این کار اطمینان می‌دهد که وضعیت آبجکت به درستی به روز می‌شود
+            _db.SaveChanges();
+        }
+
+        public void Delete(ReasonChoice reasonChoice)
+        {
+            _db.Remove(reasonChoice);
             _db.SaveChanges();
         }
     }

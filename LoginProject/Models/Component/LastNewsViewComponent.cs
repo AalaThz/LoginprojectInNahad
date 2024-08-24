@@ -17,6 +17,7 @@ namespace LoginProjectUI.Models.Component
 
         public IViewComponentResult Invoke()
         {
+            //Using GetAwaiter().GetResult() to synchronously wait on an asynchronous
             var news = _lastNewsRepository.GetAll();
             var newsList = new List<LastNewsViewModel>();
 

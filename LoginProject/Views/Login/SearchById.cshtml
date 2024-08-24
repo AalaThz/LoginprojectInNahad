@@ -1,4 +1,6 @@
-﻿@model LoginProjectUI.Models.UsersViewModel
+﻿@model LoginProjectDomain.ViewModels.UserLocalViewModel
+
+
 @{
     ViewData["Title"] = "SearchById";
 }
@@ -24,7 +26,7 @@
                 <th scope="col">UserId</th>
                 <th scope="col">UserName</th>
                 <th scope="col">Name</th>
-                <th scope="col">Family</th>
+                <th scope="col">LastName</th>
 
             </tr>
         </thead>
@@ -33,7 +35,7 @@
                 <td>@Model.UserId</td>
                 <td>@Model.UserName</td>
                 <td>@Model.Name</td>
-                <td>@Model.Family</td>
+                <td>@Model.LastName</td>
 
             </tr>
         </tbody>

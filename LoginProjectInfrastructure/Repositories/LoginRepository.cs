@@ -1,14 +1,8 @@
 ﻿using LoginProjectDomain.Models;
 using LoginProjectInfrastructure.Contexts;
 using LoginProjectInfrastructure.Repositories.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
-namespace LoginProjectInfrastructure.Repositories.Implement
+namespace LoginProjectInfrastructure.Repositories
 {
     public class LoginRepository : ILoginRepository
     {
@@ -25,6 +19,7 @@ namespace LoginProjectInfrastructure.Repositories.Implement
         }
 
         //Use local database
+        //برای چک کردن وجود کاربر و لاگین 
         public bool IsExistUser(string username, string password)
         {
             return _dbContext.UserLocal.Any(u => u.UserName == username && u.Password == password);

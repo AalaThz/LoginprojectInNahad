@@ -1,6 +1,6 @@
 using LoginProject.Models;
 using LoginProjectDomain.Models;
-using LoginProjectInfrastructure.Repositories.Implement;
+using LoginProjectInfrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

@@ -26,45 +26,38 @@
     <div class="container-fluid">
 
         <form asp-action="Add" asp-controller="ReasonChoiceAdmin" method="post" role="form" class="full-width-form">
-            @* <div class="form-group">
-                <label asp-for="Id">شناسه</label>
-                    @* <input type="text" asp-for="Id" class="form-control" name="Id" id="Id">
-                <input type="hidden" asp-for="Id" class="form-control">
-            </div> *@
-
-
-         @* <div class="form-group">
-            <label asp-for="Icon">آیکون</label>
-            <input type="text" asp-for="Icon" class="form-control">
-            </div>
-            *@
-            <div class="form-group">
-                <label asp-for="Icon">آیکون</label>
-                <select asp-for="Icon" class="form-control" aria-label="Select Icon">
-
-                    <option value="mdi mdi-database-lock">Database Lock</option>
-                    <option value="mdi mdi-security">Security</option>
-                    <option value="mdi mdi-trending-up">Trending Up</option>
-
-
-                </select>
-            </div>
-
-
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+ 
             <div class="form-group">
                 <label asp-for="Title"> عنوان</label>
                     @* <input type="text" asp-for="Title" class="form-control" name="Title" id="Title"> *@
-                <input type="text" asp-for="Title" class="form-control">
+                <input type="text" asp-for="Title" class="form-control" >
+                <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Description">توضیحات</label>
                     @* <input type="text" asp-for="Description" class=" form-control" name="Description" id="Description"> *@
-                <input type="text" asp-for="Description" class=" form-control">
+                <input type="text" asp-for="Description" class=" form-control" >
+                <span asp-validation-for="Description" class="text-danger"></span>
+
             </div>
+
             <div class="form-group">
                 <label asp-for="OrderBy">ترتیب اولویت</label>
                     @* <input type="text" asp-for="Id" class="form-control" name="Id" id="Id"> *@
                 <input type="text" asp-for="OrderBy" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Icon">آیکون</label>
+                <select asp-for="Icon" class="form-control" aria-label="Select Icon">
+                    <option value="" disabled selected>انتخاب آیکون</option>
+                    <option value="mdi mdi-database-lock">Database Lock</option>
+                    <option value="mdi mdi-security" >Security</option>
+                    <option value="mdi mdi-trending-up">Trending Up</option>
+
+
+                </select>
             </div>
 
             <div class="card-footer">

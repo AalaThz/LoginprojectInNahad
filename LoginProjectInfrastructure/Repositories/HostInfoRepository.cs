@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoginProjectInfrastructure.Repositories.Implement
+namespace LoginProjectInfrastructure.Repositories
 {
     public class HostInfoRepository : IHostInfoRepository
     {
@@ -18,7 +18,7 @@ namespace LoginProjectInfrastructure.Repositories.Implement
             _db = db;
         }
 
-        public List<HostInfo> GetAllHost()
+        public async Task<List<HostInfo>> GetAllHost()
         {
             return _db.HostInfo.ToList();
         }

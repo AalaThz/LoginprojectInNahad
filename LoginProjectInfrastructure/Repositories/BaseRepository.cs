@@ -7,15 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoginProjectInfrastructure.Repositories.Implement
+namespace LoginProjectInfrastructure.Repositories
 {
     public class BaseRepository
     {
         private readonly MyContext _db;
 
-        public BaseRepository(MyContext db) 
+        public BaseRepository(MyContext db)
         {
-            _db=db;
+            _db = db;
         }
 
         public HostInfo Add(HostInfo hostInfo)

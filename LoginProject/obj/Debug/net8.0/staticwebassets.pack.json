@@ -4013,6 +4013,14 @@
       "PackagePath": "staticwebassets\\Theme\\fonts\\pe-icon-7.css"
     },
     {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\Login-01.jpg",
+      "PackagePath": "staticwebassets\\Theme\\images\\Login-01.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\Login-04.png",
+      "PackagePath": "staticwebassets\\Theme\\images\\Login-04.png"
+    },
+    {
       "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\blog\\img-1.jpg",
       "PackagePath": "staticwebassets\\Theme\\images\\blog\\img-1.jpg"
     },

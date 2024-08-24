@@ -1,6 +1,9 @@
-﻿using LoginProjectDomain.Interfaces.IRepositories;
+﻿using LoginProjectCore.Services;
+using LoginProjectCore.Services.Implement;
+using LoginProjectDomain.Interfaces.IRepositories;
+using LoginProjectDomain.Interfaces.IServices;
 using LoginProjectInfrastructure.Contexts;
-using LoginProjectInfrastructure.Repositories.Implement;
+using LoginProjectInfrastructure.Repositories;
 using LoginProjectInfrastructure.Repositories.Interface;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -18,16 +21,19 @@ builder.Services.AddDbContext<LoginProjectInfrastructure.Contexts.MyContext>(c =
 
 #region DI
 
-builder.Services.AddScoped<UserRepository>();
-
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
-
 builder.Services.AddScoped<IHostInfoRepository, HostInfoRepository>();
 builder.Services.AddScoped<IReasonChoiceRepository, ReasonChoiceRepository>();
-
 builder.Services.AddScoped<ILastNewsRepository, LastNewsRepository>();
 
 builder.Services.AddScoped<BaseRepository>();
+
+//------------------------------------Services------------------------------------
+builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IHostInfoService, HostInfoService>();
+builder.Services.AddScoped<IReasonChoiceService, ReasonChoiceService>();
 #endregion
 
 

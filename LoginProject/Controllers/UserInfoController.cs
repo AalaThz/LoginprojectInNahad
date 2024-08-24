@@ -1,6 +1,5 @@
-﻿using LoginProjectInfrastructure.Repositories.Implement;
-using LoginProjectUI.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using LoginProjectDomain.Interfaces.IServices;
+using LoginProjectDomain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -8,11 +7,11 @@ namespace LoginProjectUI.Controllers
 {
     public class UserInfoController : Controller
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserService _userService;
 
-        public UserInfoController(UserRepository userRepository)
+        public UserInfoController(IUserService userService)
         {
-            _userRepository = userRepository;
+            _userService = userService;
         }
         public IActionResult Index()
         {
@@ -24,22 +23,10 @@ namespace LoginProjectUI.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult SearchById(Guid userId)
+        public IActionResult SearchById(int userId)
         {
- 
-            var user = _userRepository.GetUsers(userId);
-            var userViewModel = new UsersViewModel();
-            if (user != null)
-            {
-                userViewModel.UserId = user.UserId;
-                userViewModel.UserName = user.UserName;
-                userViewModel.Name = user.Name;
-                userViewModel.Family = user.Family;
-                userViewModel.BirthDate = user.BirthDate;
-            }
+            var userViewModel = _userService.GetUserViewModelById(userId);
             return View(userViewModel);
         }
-
-        
     }
 }

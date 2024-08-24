@@ -9,6 +9,6 @@ namespace LoginProjectInfrastructure.Repositories.Interface
 {
     public interface IHostInfoRepository
     {
-        List<HostInfo> GetAllHost();
+        Task<List<HostInfo>> GetAllHost();
     }
 }

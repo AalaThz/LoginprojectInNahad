@@ -1,4 +1,5 @@
-﻿using LoginProjectDomain.Models;
+﻿using LoginProjectCore.Services.Implement;
+using LoginProjectDomain.Models;
 using LoginProjectDomain.ViewModels;
 using LoginProjectInfrastructure.Repositories.Interface;
 using LoginProjectUI.Models;
@@ -8,11 +9,11 @@ namespace LoginProjectUI.Controllers
 {
     public class HostInfoController : Controller
     {
-        private readonly IHostInfoRepository _hostInfoRepository;
+        private readonly IHostInfoService _hostInfoService;
 
-        public HostInfoController(IHostInfoRepository hostInfoRepository) 
+        public HostInfoController(IHostInfoService hostInfoService) 
         {
-            _hostInfoRepository=hostInfoRepository;
+            _hostInfoService=hostInfoService;
         }
 
         public IActionResult Index()
@@ -20,9 +21,9 @@ namespace LoginProjectUI.Controllers
             return View();
         }
 
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
-            var hosts = _hostInfoRepository.GetAllHost();
+            var hosts =await _hostInfoService.GetAllHost();
             var hostList = new List<HostInfoViewModel>();
             foreach (var item in hosts)
             {

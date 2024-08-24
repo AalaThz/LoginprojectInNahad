@@ -1,14 +1,6 @@
-﻿using LoginProjectDomain.ViewModels;
-using LoginProjectInfrastructure.Contexts;
-using LoginProjectInfrastructure.Repositories.Interface;
-using LoginProjectUI.Models;
+﻿using LoginProjectCore.Services.Implement;
+using LoginProjectDomain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace LoginProjectDomain.Models.Component
@@ -17,15 +9,16 @@ namespace LoginProjectDomain.Models.Component
     public class TrafficHostsViewComponent : ViewComponent
     {
         
-        private readonly IHostInfoRepository _hostInfoRepository;
+        private readonly IHostInfoService _hostInfoService;
 
-        public TrafficHostsViewComponent(IHostInfoRepository hostInfoRepository)
+        public TrafficHostsViewComponent(IHostInfoService hostInfoService)
         {
-            _hostInfoRepository=hostInfoRepository;
+            _hostInfoService=hostInfoService;
         }
         public IViewComponentResult Invoke()
         {
-            var hosts = _hostInfoRepository.GetAllHost();
+            //Using GetAwaiter().GetResult() to synchronously wait on an asynchronous
+            var hosts = _hostInfoService.GetAllHost().GetAwaiter().GetResult();
             var hostList = new List<HostInfoViewModel>();
             foreach (var item in hosts)
             {

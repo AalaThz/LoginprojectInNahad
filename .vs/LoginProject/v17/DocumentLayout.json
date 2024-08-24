@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\LoginProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\models\\component\\reasonchoiceviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\models\\component\\reasonchoiceviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\areas\\admin\\controllers\\reasonchoiceadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\areas\\admin\\controllers\\reasonchoiceadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\shared\\components\\reasonchoicevm\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\shared\\components\\reasonchoicevm\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,58 +18,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Program.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Program.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Program.cs",
+              "RelativeToolTip": "LoginProject\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T09:37:18.476Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReasonChoiceAdminController.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
+              "RelativeToolTip": "LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T12:23:20.05Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Components\\ReasonChoiceVM\\Default.cshtml",
-              "RelativeDocumentMoniker": "LoginProject\\Views\\Shared\\Components\\ReasonChoiceVM\\Default.cshtml",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Components\\ReasonChoiceVM\\Default.cshtml",
-              "RelativeToolTip": "LoginProject\\Views\\Shared\\Components\\ReasonChoiceVM\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T11:59:16.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LoginProject\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LoginProject\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:58:33.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReasonChoiceViewComponent.cs",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Models\\Component\\ReasonChoiceViewComponent.cs",
-              "RelativeDocumentMoniker": "LoginProject\\Models\\Component\\ReasonChoiceViewComponent.cs",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Models\\Component\\ReasonChoiceViewComponent.cs",
-              "RelativeToolTip": "LoginProject\\Models\\Component\\ReasonChoiceViewComponent.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:53:03.355Z",
-              "EditorCaption": ""
             }
           ]
         }

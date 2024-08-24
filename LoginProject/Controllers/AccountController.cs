@@ -1,5 +1,5 @@
-﻿using LoginProjectInfrastructure.Repositories.Interface;
-using LoginProjectUI.Models;
+﻿using LoginProjectDomain.Interfaces.IServices;
+using LoginProjectDomain.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -10,11 +10,11 @@ namespace LoginProjectUI.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly ILoginRepository _loginRepository;
+        private readonly ILoginService _loginService;
 
-        public AccountController(ILoginRepository loginRepository)
+        public AccountController(ILoginService loginService)
         {
-            _loginRepository = loginRepository;
+            _loginService=loginService;
         }
         public IActionResult Index()
         {
@@ -27,13 +27,13 @@ namespace LoginProjectUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(UserLocalViewModel login)
+        public async Task<IActionResult> Login(UserLocalLoginViewModel login)
         {
             if (ModelState.IsValid)
             {
-                
-                    // فرض بر این است که متد اعتبار سنجی کاربر Hash شده است  
-                    var user = _loginRepository.GetUser(login.UserName, login.Password);
+
+                // فرض بر این است که متد اعتبار سنجی کاربر Hash شده است  
+                var user = _loginService.GetUser(login.UserName, login.Password);
                 if (user != null)
                 {
                     // ورود کاربر موفقیت آمیز است  
@@ -60,7 +60,7 @@ namespace LoginProjectUI.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("UserName", "کاربری یافت نشد");
+                    ModelState.AddModelError("", "کاربری یافت نشد");
                 }
             }
             return View(login);
@@ -70,7 +70,7 @@ namespace LoginProjectUI.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                 HttpContext.SignOutAsync();
+                HttpContext.SignOutAsync();
             }
             return RedirectToAction("Index", "Home");
         }

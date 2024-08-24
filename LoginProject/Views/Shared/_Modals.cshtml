@@ -1,4 +1,4 @@
-﻿@using LoginProjectUI.Models
+﻿@using LoginProjectDomain.ViewModels
 @*
 @model UserLocalViewModel *@
 @{
@@ -13,6 +13,12 @@
                     <h3 class="title mb-4">به Lezir خوش آمدید</h3>
                     <h4 class="text-uppercase text-primary"><b>ورود</b></h4>
                 </div>
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                   <div class="alert alert-danger">@Html.ValidationSummary(true)</div>
+                }
+
                 <div class="login-form mt-4">
                     <form asp-action="Login" asp-controller="Account" method="post">
 
