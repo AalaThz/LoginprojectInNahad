@@ -9,6 +9,7 @@ namespace LoginProjectDomain.Models
 {
     public class LastNews
     {
+        
         public int Id { get; set; }
         [Display(Name ="تاریخ خیر")]
         public DateTime NewsDate{ get; set; }

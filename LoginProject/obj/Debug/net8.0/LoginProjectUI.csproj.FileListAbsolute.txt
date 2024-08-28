@@ -269,8 +269,11 @@ E:\LoginProject\LoginProject\bin\Debug\net8.0\LoginProjectUI.deps.json
 E:\LoginProject\LoginProject\bin\Debug\net8.0\LoginProjectUI.runtimeconfig.json
 E:\LoginProject\LoginProject\bin\Debug\net8.0\LoginProjectUI.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\LoginProjectUI.pdb
+E:\LoginProject\LoginProject\bin\Debug\net8.0\AngleSharp.dll
+E:\LoginProject\LoginProject\bin\Debug\net8.0\AngleSharp.Css.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\Azure.Core.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\Azure.Identity.dll
+E:\LoginProject\LoginProject\bin\Debug\net8.0\HtmlSanitizer.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\Humanizer.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\LoginProject\LoginProject\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

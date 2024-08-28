@@ -1,12 +1,7 @@
-﻿using LoginProjectDomain.Interfaces.IServices;
+﻿using LoginProjectCore.Utilities;
+using LoginProjectDomain.Interfaces.IServices;
 using LoginProjectDomain.Models;
 using LoginProjectInfrastructure.Repositories.Interface;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LoginProjectCore.Services
 {
@@ -20,15 +15,19 @@ namespace LoginProjectCore.Services
         }
         public UserLocal GetUser(string username, string password)
         {
-            return _loginRepository.GetUser(username, password);
+            //استفاده از کلاس استاتیک CheckText برای پیشگیری از Sql Injection
+            var sanitizedUsername = username.CheckText().Trim();
+            var sanitizedPassword = password.CheckText();
+            return _loginRepository.GetUser(sanitizedUsername, sanitizedPassword);
         }
 
         public bool IsExistUser(string username, string password)
         {
-            return _loginRepository.IsExistUser(username, password);
+            //استفاده از کلاس استاتیک CheckText برای پیشگیری از Sql Injection
+            var sanitizedUsername = username.CheckText().Trim();
+            var sanitizedPassword = password.CheckText();
+            return _loginRepository.IsExistUser(sanitizedUsername, sanitizedPassword);
         }
-
-        //Use local database
 
     }
 }

@@ -7,8 +7,8 @@ namespace LoginProjectDomain.Interfaces.IServices
     {
         Task<ReasonChoiceModelViewModel> GetAllAsync();
         Task<ReasonChoice> GetByIdAsync(int id);
-        void Update(ReasonChoice reason);
-        void Add(ReasonChoice reasonChoice);
-        //void Delete(int id);
+        Task UpdateAsync(ReasonChoiceViewModelUpdate model);
+        void Add(ReasonChoiceViewModelAdd reasonChoice);
+        void Delete(ReasonChoice reasonChoice);
     }
 }

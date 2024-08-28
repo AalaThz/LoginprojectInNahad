@@ -1,8 +1,6 @@
 ﻿using LoginProjectCore.Services;
-using LoginProjectCore.Services.Implement;
 using LoginProjectDomain.Interfaces.IRepositories;
 using LoginProjectDomain.Interfaces.IServices;
-using LoginProjectInfrastructure.Contexts;
 using LoginProjectInfrastructure.Repositories;
 using LoginProjectInfrastructure.Repositories.Interface;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -23,17 +21,19 @@ builder.Services.AddDbContext<LoginProjectInfrastructure.Contexts.MyContext>(c =
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
-builder.Services.AddScoped<IHostInfoRepository, HostInfoRepository>();
+builder.Services.AddScoped<ITrafficHostInfoRepository, TrafficHostInfoRepository>();
 builder.Services.AddScoped<IReasonChoiceRepository, ReasonChoiceRepository>();
-builder.Services.AddScoped<ILastNewsRepository, LastNewsRepository>();
+builder.Services.AddScoped<ILatestNewsRepository, LatestNewsRepository>();
 
 builder.Services.AddScoped<BaseRepository>();
 
 //------------------------------------Services------------------------------------
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IHostInfoService, HostInfoService>();
 builder.Services.AddScoped<IReasonChoiceService, ReasonChoiceService>();
+builder.Services.AddScoped<ILatestNewsService, LatestNewsService>();
+builder.Services.AddScoped<ITrafficHostInfoService, TrafficHostInfoService>();
+
 #endregion
 
 

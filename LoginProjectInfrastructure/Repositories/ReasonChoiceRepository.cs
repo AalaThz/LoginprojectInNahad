@@ -31,12 +31,13 @@ namespace LoginProjectInfrastructure.Repositories
             _db.SaveChanges();
         }
 
-        public void Update(ReasonChoice reason)
+        public async Task Update(ReasonChoice reason)
         {
-            //var findReason = GetByIdAsync(reason.Id);
-            //_db.Update(reason);
-            _db.Entry(reason).State = EntityState.Modified; //این کار اطمینان می‌دهد که وضعیت آبجکت به درستی به روز می‌شود
-            _db.SaveChanges();
+            _db.ReasonChoices.Update(reason);
+            await _db.SaveChangesAsync();
+
+            //_db.Entry(reason).State = EntityState.Modified; //این کار اطمینان می‌دهد که وضعیت آبجکت به درستی به روز می‌شود
+            //_db.SaveChanges();
         }
 
         public void Delete(ReasonChoice reasonChoice)

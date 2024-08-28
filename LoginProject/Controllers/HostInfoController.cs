@@ -1,4 +1,4 @@
-﻿using LoginProjectCore.Services.Implement;
+﻿using LoginProjectDomain.Interfaces.IServices;
 using LoginProjectDomain.Models;
 using LoginProjectDomain.ViewModels;
 using LoginProjectInfrastructure.Repositories.Interface;
@@ -9,9 +9,9 @@ namespace LoginProjectUI.Controllers
 {
     public class HostInfoController : Controller
     {
-        private readonly IHostInfoService _hostInfoService;
+        private readonly ITrafficHostInfoService _hostInfoService;
 
-        public HostInfoController(IHostInfoService hostInfoService) 
+        public HostInfoController(ITrafficHostInfoService hostInfoService) 
         {
             _hostInfoService=hostInfoService;
         }

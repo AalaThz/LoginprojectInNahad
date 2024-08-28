@@ -3885,6 +3885,1686 @@
       "PackagePath": "staticwebassets\\AdminTheme\\plugins\\timepicker\\bootstrap-timepicker.min.js"
     },
     {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author-6.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author-6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\features-light-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\features-light-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\features-light-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\features-light-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\features-light-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\features-light-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\services.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\services.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\stats-bg.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\stats-bg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\team\\team-6.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\team\\team-6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\AppendBlog\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\AppendBlog\\forms\\Readme.txt"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\AppendBlog\\forms\\contact.php"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\AppendBlog\\forms\\newsletter.php",
+      "PackagePath": "staticwebassets\\AppendBlog\\forms\\newsletter.php"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Gradiant-button.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Gradiant-button.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Main.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Main.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Menu-demo1.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Menu-demo1.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Menu-demo3.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Menu-demo3.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Menu-demo4.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Menu-demo4.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Menu-demo6.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Menu-demo6.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\Style.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\Style.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\all.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\all.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\awsome-box.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\awsome-box.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\bg-color.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\bg-color.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\hoverimg.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\hoverimg.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\icheck-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\intlTelInput.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\intlTelInput.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\owl.theme.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\owl.theme.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Blog\\Css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum).eot",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum).eot"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum).ttf",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum).ttf"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum).woff",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum).woff"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum).woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum).woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.eot",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.eot"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.ttf",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.ttf"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.woff",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.woff"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Bold.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.eot",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.eot"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.ttf",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.ttf"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.woff",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.woff"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Light.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.eot",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.eot"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.ttf",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.ttf"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.woff",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.woff"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\IRANSansWeb(FaNum)_Medium.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Fonts\\social-icons.ttf",
+      "PackagePath": "staticwebassets\\Blog\\Fonts\\social-icons.ttf"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\0094.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\0094.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\01.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\01.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\1.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\1.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\123.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\123.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\2.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\2.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\22.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\22.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\23.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\23.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\3.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\3.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\404.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\404.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\Mac.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\Mac.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\Mention-amico.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\Mention-amico.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat1.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat4.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat4.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat5.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat5.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat6.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat6.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\New folder\\ico-cat7.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\New folder\\ico-cat7.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\ads1.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\ads1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\ads2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\ads2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\ads3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\ads3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\avatar.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\bg-login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\bg-login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-img19.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-img19.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post-2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post10.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post10.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post11.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post11.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post12.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post12.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post13.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post13.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post7.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post7.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post8.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post8.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog-post9.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog-post9.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\blog07.jpeg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\blog07.jpeg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\bullet.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\bullet.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cati\\img_1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cati\\img_1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cati\\img_2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cati\\img_2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cati\\img_4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cati\\img_4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cati\\img_5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cati\\img_5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cati\\img_6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cati\\img_6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\contact-form.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\contact-form.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\coupon.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\coupon.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cu(1).png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cu(1).png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cu(2).png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cu(2).png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cu(3).png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cu(3).png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\cu(4).png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\cu(4).png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\404.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\404.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo4.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo4.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo5.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo5.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Demo6.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Demo6.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Empty-demo2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Empty-demo2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Empty-demo4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Empty-demo4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\Empty-demo6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\Empty-demo6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\a_forget.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\a_forget.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\a_login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\a_login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\a_register.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\a_register.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\about.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\about.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\awsomebox.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\awsomebox.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\b_forget.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\b_forget.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\b_login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\b_login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\b_register.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\b_register.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog1.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\blog_details.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\blog_details.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\bootstrap.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\bootstrap.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\boxlist1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\boxlist1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\boxlist2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\boxlist2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\browser.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\browser.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\c_forget.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\c_forget.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\c_login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\c_login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\c_register.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\c_register.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\carousel.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\carousel.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\carousel2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\carousel2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\code.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\code.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\color.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\color.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\coming.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\coming.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\comingsoon.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\comingsoon.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\contactus1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\contactus1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\contactus2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\contactus2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\contentbox.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\contentbox.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\d_login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\d_login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\demo4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\demo4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\demo5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\demo5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\demo6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\demo6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\design.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\design.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\developer.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\developer.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\elemans.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\elemans.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\faq.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\faq.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\imghover.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\imghover.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\nail-salon.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\nail-salon.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\pricetable.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\pricetable.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\resposive.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\resposive.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\result1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\result1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\result2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\result2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\service1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\service1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\service2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\service2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\service3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\service3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\service4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\service4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\service5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\service5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\table.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\table.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\team1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\team1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\team2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\team2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\team3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\team3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\thumbs.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\thumbs.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\w3c.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\w3c.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\demo\\wrench.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\demo\\wrench.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\eslimi.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\eslimi.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\etehadie.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\etehadie.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\event3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\event3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\event4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\event4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\event5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\event5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\event6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\event6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\faq-cover.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\faq-cover.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\faq2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\faq2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\flags.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\flags.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\flags@2x.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\flags@2x.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\healthcare.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\healthcare.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\hero.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\hero.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img-19.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img-19.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img-20.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img-20.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img-23.jpeg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img-23.jpeg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img-24.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img-24.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img-25.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img-25.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img4.0.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img4.0.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img_1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img_1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img_2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img_2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img_4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img_4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\img_6.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\img_6.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\iphone.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\iphone.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\jamshidi.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\jamshidi.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\kids.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\kids.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\laptop.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\laptop.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\linkbg.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\linkbg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\login.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\login.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\loginBg.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\loginBg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\logo-main.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\logo-main.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\logo.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\logo.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\packageBg.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\packageBg.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\packageBg1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\packageBg1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\packageBg2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\packageBg2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\perso.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\perso.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\photo.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\photo.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\pic.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\pic.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\pic4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\pic4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\pic6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\pic6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\pic8.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\pic8.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\product01.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\product01.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\rabani.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\rabani.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\saadati.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\saadati.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\service1.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\service1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\service2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\service2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\service3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\service3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\shop-item3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\shop-item3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\shop-item4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\shop-item4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\shop-item5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\shop-item5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\sketchbook.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\sketchbook.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide-demo2\\cover.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide-demo2\\cover.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide-demo2\\slide1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide-demo2\\slide1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide-demo2\\slide2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide-demo2\\slide2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide-hotel-2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide-hotel-2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide7.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide7.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slide8.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slide8.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slider1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slider1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slider2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slider2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slider4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slider4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\slider5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\slider5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\1.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\1.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\24-hours.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\24-hours.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\bazar.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\bazar.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\bootstrap.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\bootstrap.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\browser.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\browser.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\calendar.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\calendar.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\coffee.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\coffee.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\corn.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\corn.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\energy.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\energy.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\googleplay.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\googleplay.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\helmet.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\helmet.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\intellectual.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\intellectual.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\lightbulb.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\lightbulb.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\like.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\like.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\moshavere.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\moshavere.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\pen.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\pen.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\play-b.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\play-b.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\responsive.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\responsive.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\ruler.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\ruler.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\sand-clock.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\sand-clock.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\select.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\select.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\statistics.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\statistics.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\successful.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\successful.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\support.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\support.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\user.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\user.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\svg\\video.svg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\svg\\video.svg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\team-img1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\team-img1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\team-img2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\team-img2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\th1.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\th1.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\th2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\th2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\th3.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\th3.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\th4.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\th4.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\th5.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\th5.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb10.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb10.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb11.jpeg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb11.jpeg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb12.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb12.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb13.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb13.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb2.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb2.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb5.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb5.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb6.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb6.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb7.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb7.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb8.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb8.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\thumb9.png",
+      "PackagePath": "staticwebassets\\Blog\\Img\\thumb9.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\uni1.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\uni1.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\uni2.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\uni2.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\uni3.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\uni3.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Img\\uni4.jpg",
+      "PackagePath": "staticwebassets\\Blog\\Img\\uni4.jpg"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\Counter.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\Counter.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\all.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\all.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\custom.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\custom.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\intlTelInput.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\intlTelInput.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\magnific.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\magnific.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\my-script.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\my-script.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\myselect.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\myselect.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\select2.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\select2.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\typed.min.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\typed.min.js"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Blog\\Js\\utils.js",
+      "PackagePath": "staticwebassets\\Blog\\Js\\utils.js"
+    },
+    {
       "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Theme\\css\\bootstrap.min.css"
     },
@@ -4019,6 +5699,10 @@
     {
       "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\Login-04.png",
       "PackagePath": "staticwebassets\\Theme\\images\\Login-04.png"
+    },
+    {
+      "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\Login-06.png",
+      "PackagePath": "staticwebassets\\Theme\\images\\Login-06.png"
     },
     {
       "Id": "E:\\LoginProject\\LoginProject\\wwwroot\\Theme\\images\\blog\\img-1.jpg",

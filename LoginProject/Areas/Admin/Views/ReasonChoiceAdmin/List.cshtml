@@ -18,7 +18,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">جدول</h3>
+                            <h3 class="card-title">رکورد اصلی</h3>
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -35,49 +35,82 @@
                             <a asp-action="Add" asp-controller="ReasonChoiceAdmin" class="btn btn-primary m-2">جدید</a>
                         </div>
 
-                        <!-- /.card-header -->
                         <div class="card-body table-responsive p-0">
+                            @if (Model.ReasonChoice != null)
+                            {
+
+                            }
                             <table class="table table-hover">
-                                <tbody>
+                                <thead>
                                     <tr>
                                         <th>شناسه</th>
                                         <th>عنوان</th>
                                         <th>توضیحات</th>
-                                        
+                                        <th>آیکون</th>
                                     </tr>
+                                </thead>
 
-                                    @if (Model != null && Model.ReasonChoiceList.Any())
-                                    {
+                                <tbody>
+                                    <tr>
+                                        <td>@Model.ReasonChoice.Id</td>
+                                        <td>@Model.ReasonChoice.Title</td>
+                                        <td>@Model.ReasonChoice.Description</td>
+                                        
 
-                                        @foreach (var item in Model.ReasonChoiceList)
-                                        {
-                                            <tr>
-                                                <td>@item.Id</td>
-                                                <td>@item.Title</td>
-                                                <td>@item.Description</td>
+                                        <td>
+                                            <a href="/admin/ReasonChoiceAdmin/Update/@Model.ReasonChoice.Id" class="btn btn-warning">ویرایش</a> 
 
-                                                <td>
-                                                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
-                                                    @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
-                                                    <a href="/admin/ReasonChoiceAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
-                                                    <a href="/admin/ReasonChoiceAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a> |
-
-                                                </td>
-
-
-                                            </tr>
-                                        }
-                                    }
-
+                                        </td>
+                                    </tr>
                                 </tbody>
+
+
                             </table>
+
+
+                            <!-- /.card-header -->
+                            <div class="card-body table-responsive p-0">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th>شناسه</th>
+                                            <th>عنوان</th>
+                                            <th>توضیحات</th>
+
+                                        </tr>
+
+                                        @if (Model != null && Model.ReasonChoiceList.Any())
+                                        {
+
+                                            @foreach (var item in Model.ReasonChoiceList)
+                                            {
+                                                <tr>
+                                                    <td>@item.Id</td>
+                                                    <td>@item.Title</td>
+                                                    <td>@item.Description</td>
+
+                                                    <td>
+                                                        @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
+                                                        @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
+                                                        <a href="/admin/ReasonChoiceAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
+                                                        <a href="/admin/ReasonChoiceAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a> 
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
                         </div>
-                        <!-- /.card-body -->
+                        <!-- /.card -->
                     </div>
-                    <!-- /.card -->
-                </div>
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
 </div>

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HtmlSanitizer" Version="8.1.870" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LoginProjectDomain\LoginProjectDomain.csproj" />
     <ProjectReference Include="..\LoginProjectInfrastructure\LoginProjectInfrastructure.csproj" />
   </ItemGroup>

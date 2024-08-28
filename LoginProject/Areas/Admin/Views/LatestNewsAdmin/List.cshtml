@@ -1,0 +1,92 @@
+﻿@using LoginProjectDomain.ViewModels
+@model List<LastNewsViewModel>
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<div class="content-wrapper" style="min-height: 839px;">
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">رکورد اصلی</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="جستجو">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a asp-action="Add" asp-controller="LatestNewsAdmin" class="btn btn-primary m-2">جدید</a>
+                        </div>
+
+                        <div class="card-body table-responsive p-0">
+
+
+
+                            <!-- /.card-header -->
+                            <div class="card-body table-responsive p-0">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <th>شناسه</th>
+                                            <th>عنوان</th>
+                                            <th>متن خبر</th>
+                                            <th>تاریخ خبر</th>
+                                            <th>نام کاربر</th>
+                                            <th>تصویر خبر</th>
+
+                                        </tr>
+
+                                        @if (Model != null)
+                                        {
+
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>@item.Id</td>
+                                                    <td>@item.Title</td>
+                                                    <td>@item.NewsText</td>
+                                                    <td>@item.NewsDate</td>
+                                                    <td>@item.UserName</td>
+                                                    <td>@item.Image</td>
+
+                                                    <td>
+                                                        @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@
+                                                        @* <a asp-controller="ReasonChoiceAdmin" asp-action="ChoiceList" asp-route-id="@item.Id" class="btn btn-danger">حذف</a> | *@
+                                                        <a href="/admin/LatestNewsAdmin/Update/@item.Id" class="btn btn-warning">ویرایش</a> |
+                                                        <a href="/admin/LatestNewsAdmin/Delete/@item.Id" class="btn btn-danger">حذف</a>
+
+                                                    </td>
+
+
+                                                </tr>
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>

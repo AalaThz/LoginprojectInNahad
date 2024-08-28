@@ -1,4 +1,5 @@
 ﻿using LoginProjectDomain.Interfaces.IRepositories;
+using LoginProjectDomain.Interfaces.IServices;
 using LoginProjectDomain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -8,32 +9,18 @@ namespace LoginProjectUI.Models.Component
     [ViewComponent(Name ="LastNewsVM")]
     public class LastNewsViewComponent : ViewComponent
     {
-        private readonly ILastNewsRepository _lastNewsRepository;
+        private readonly ILatestNewsService _lastNewsService;
 
-        public LastNewsViewComponent(ILastNewsRepository lastNewsRepository)
+        public LastNewsViewComponent(ILatestNewsService lastNewsService)
         {
-            _lastNewsRepository=lastNewsRepository;
+            _lastNewsService=lastNewsService;
         }
 
         public IViewComponentResult Invoke()
         {
             //Using GetAwaiter().GetResult() to synchronously wait on an asynchronous
-            var news = _lastNewsRepository.GetAll();
-            var newsList = new List<LastNewsViewModel>();
-
-            foreach (var item in news)
-            {
-                var newsView = new LastNewsViewModel
-                {
-                    NewsDate = item.NewsDate,
-                    UserName = item.UserName,
-                    Title = item.Title,
-                    NewsText = item.NewsText,
-                    Image = item.Image,
-                };
-                newsList.Add(newsView);
-            }
-            return View(newsList);
+            var news = _lastNewsService.GetAllNewsAsync().GetAwaiter().GetResult();
+            return View(news);
         }
     }
 }

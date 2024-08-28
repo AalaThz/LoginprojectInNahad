@@ -9,16 +9,18 @@ namespace LoginProjectCore.Services
     {
         private readonly IReasonChoiceRepository _reasonChoiceRepository;
 
-        public ReasonChoiceService(IReasonChoiceRepository reasonChoiceRepository) 
+        public ReasonChoiceService(IReasonChoiceRepository reasonChoiceRepository)
         {
             _reasonChoiceRepository=reasonChoiceRepository;
         }
-       
 
+        
         public async Task<ReasonChoiceModelViewModel> GetAllAsync()
         {
-            var reason = _reasonChoiceRepository.GetAllAsync().GetAwaiter().GetResult();
+            var reason =await _reasonChoiceRepository.GetAllAsync();
+
             var vm = new ReasonChoiceModelViewModel();
+
 
             var id = reason.Select(c => c.Id).FirstOrDefault();
             var firstReason = reason.First(i => i.Id == id);
@@ -29,11 +31,13 @@ namespace LoginProjectCore.Services
                 Description = firstReason.Description,
                 Icon = firstReason.Icon,
             };
+            //حذف اولین آیتم به دلیل جدا بودن از بقیه
+            var otherReason = reason.Where(r => r.Id != firstReason.Id);
 
             var reasonList = new List<ReasonChoiceViewModel>();
 
             //foreach (var item in reason.OrderByDescending(s => s.OrderBy))//ترتیب نمایش 
-            foreach (var item in reason)
+            foreach (var item in otherReason)
             {
                 var reasonView = new ReasonChoiceViewModel
                 {
@@ -50,24 +54,52 @@ namespace LoginProjectCore.Services
             return vm;
         }
 
-        public async Task<ReasonChoice> GetByIdAsync(int id)
+        public void Add(ReasonChoiceViewModelAdd model)
         {
-            return await _reasonChoiceRepository.GetByIdAsync(id);
+            var reason = new ReasonChoice();
+            reason.Id = model.Id;
+            reason.Title = model.Title;
+            reason.Description = model.Description;
+            reason.OrderBy = model.OrderBy;
+            if (string.IsNullOrEmpty(model.Icon))//انتخاب یک آیکون پیش فرض برای مدل
+            {
+                reason.Icon = "mdi mdi-security";
+            }
+            else
+            {
+                reason.Icon = model.Icon;
+
+            }
+
+            _reasonChoiceRepository.Add(reason);
         }
 
-        public void Add(ReasonChoice reasonChoice)
+
+        
+        public async Task UpdateAsync(ReasonChoiceViewModelUpdate model)
         {
-            _reasonChoiceRepository.Add(reasonChoice);
-        }
-        public void Update(ReasonChoice reason)
-        {
-            _reasonChoiceRepository.Update(reason);
+            var existingReasonChoice =await _reasonChoiceRepository.GetByIdAsync(model.Id);
+            if (existingReasonChoice != null)
+            {
+                existingReasonChoice.Title = model.Title;
+                existingReasonChoice.Description = model.Description;
+                //existingReasonChoice.OrderBy = model.OrderBy; // اگر OrderBy هم در مدل وجود دارد  
+                //existingReasonChoice.Icon = model.Icon;
+
+                await _reasonChoiceRepository.Update(existingReasonChoice);
+            }
         }
 
         public void Delete(ReasonChoice reason)
         {
             _reasonChoiceRepository.Delete(reason);
         }
-        
+
+
+        public async Task<ReasonChoice> GetByIdAsync(int id)
+        {
+            return await _reasonChoiceRepository.GetByIdAsync(id);
+        }
+
     }
 }

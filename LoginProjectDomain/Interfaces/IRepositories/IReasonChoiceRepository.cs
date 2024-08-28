@@ -6,8 +6,8 @@ namespace LoginProjectInfrastructure.Repositories.Interface
     {
         Task<List<ReasonChoice>> GetAllAsync();
         Task<ReasonChoice> GetByIdAsync(int id);
-        void Update(ReasonChoice reason);
-        void Add(ReasonChoice reasonChoice);
+        Task Update(ReasonChoice reason);
+        void Add(ReasonChoice reason);
         void Delete(ReasonChoice reasonChoice);
     }
 }

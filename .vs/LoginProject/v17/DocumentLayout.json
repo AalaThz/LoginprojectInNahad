@@ -3,12 +3,18 @@
   "WorkspaceRootPath": "E:\\LoginProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\areas\\admin\\controllers\\reasonchoiceadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\areas\\admin\\controllers\\reasonchoiceadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\shared\\blog\\_bloglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\shared\\blog\\_bloglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\shared\\blog\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\shared\\blog\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,35 +24,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Program.cs",
-              "RelativeDocumentMoniker": "LoginProject\\Program.cs",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Program.cs",
-              "RelativeToolTip": "LoginProject\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:37:18.476Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReasonChoiceAdminController.cs",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
-              "RelativeDocumentMoniker": "LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
-              "RelativeToolTip": "LoginProject\\Areas\\Admin\\Controllers\\ReasonChoiceAdminController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T12:23:20.05Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
@@ -54,6 +33,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Styles.cshtml",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
+              "RelativeDocumentMoniker": "LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
+              "RelativeToolTip": "LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T12:14:52.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_BlogLayout.cshtml",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
+              "RelativeDocumentMoniker": "LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
+              "RelativeToolTip": "LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T12:08:24.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "blog_destails.html",
+              "DocumentMoniker": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
+              "RelativeDocumentMoniker": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
+              "ToolTip": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
+              "RelativeToolTip": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-28T12:07:03.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "blog.html",
+              "DocumentMoniker": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
+              "RelativeDocumentMoniker": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
+              "ToolTip": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
+              "RelativeToolTip": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
+              "ViewState": "AQIAAHgCAAAAAAAAAAAqwJYCAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-28T12:06:50.258Z",
+              "EditorCaption": ""
             }
           ]
         }
