@@ -27,13 +27,13 @@ namespace LoginProjectUI.Areas.Admin.Controllers
 
         public IActionResult Add()
         {
-            var model = new LastNewsViewModel();
+            var model = new LatestNewsViewModelAdd();
             return View(model);
         }
 
 
         [HttpPost]
-        public IActionResult Add(LastNewsViewModel model)
+        public IActionResult Add(LatestNewsViewModelAdd model)
         {
             if (!ModelState.IsValid)
             {

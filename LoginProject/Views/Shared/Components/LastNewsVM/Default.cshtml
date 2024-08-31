@@ -1,5 +1,5 @@
 ﻿@using LoginProjectDomain.ViewModels
-@model IEnumerable<LastNewsViewModel>
+@model IEnumerable<LatestNewsViewModelList>
 @{
     ViewData["Title"] = "Default";
 }
@@ -16,13 +16,13 @@
             </div>
         </div>
 
-            <div class="row">
+        <div class="row">
 
-             
-        @foreach (var item in Model)
-        {
+
+            @foreach (var item in Model)
+            {
                 <div class="col-lg-4">
-                    <div class="blog-box mb-4 mb-lg-0">
+                    <div class="blog-box mb-5 mb-lg-0">
                         <img src="/Theme/images/blog/@item.Image" alt="" class="img-fluid d-block mx-auto rounded" />
                         <ul class="list-inline text-muted text-uppercase font-size-15 font-weight-medium mt-3 mb-2">
                             <li class="list-inline-item me-3">
@@ -32,14 +32,16 @@
                                 <i class="icon-size-15 icon me-1" data-feather="user"></i>@item.UserName
                             </li>
                         </ul>
-                        <a href="#" class="fw-bold h5">@item.Title</a>
-                        <p class="text-muted font-size-15">@item.NewsText</p>
-                        <a href="#" class="text-primary font-weight-semibold">بیشتر بدانید<span class="ms-2 right-icon">→</span></a>
+                        <a asp-action="Details" asp-controller="Blog" asp-route-id="@item.Id" class="fw-bold h5">@item.Title</a>
+                        <p class="text-muted font-size-15">@item.NewsTextSummary</p>
+                        <a asp-action="Details" asp-controller="Blog" asp-route-id="@item.Id" class="text-primary font-weight-semibold">بیشتر بدانید<span class="ms-2 right-icon">→</span></a>
+                         @* <a href="/Blog/details/@item.Id" class="">بیشتر بدانید<span class="ms-2 right-icon">→</span></a> *@
                     </div>
                 </div>
-            
-        }
-            </div>
+
+            }
+        </div>
+        
     </div>
 </section>
 

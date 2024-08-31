@@ -1,5 +1,5 @@
 ﻿@using LoginProjectDomain.ViewModels
-@model List<LastNewsViewModel>
+@model List<LatestNewsViewModelList>
 @{
     ViewData["Title"] = "List";
 }
@@ -46,6 +46,7 @@
                                             <th>شناسه</th>
                                             <th>عنوان</th>
                                             <th>متن خبر</th>
+                                            <th>خلاصه خبر</th>
                                             <th>تاریخ خبر</th>
                                             <th>نام کاربر</th>
                                             <th>تصویر خبر</th>
@@ -61,6 +62,7 @@
                                                     <td>@item.Id</td>
                                                     <td>@item.Title</td>
                                                     <td>@item.NewsText</td>
+                                                    <td>@item.NewsTextSummary</td>
                                                     <td>@item.NewsDate</td>
                                                     <td>@item.UserName</td>
                                                     <td>@item.Image</td>

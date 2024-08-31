@@ -10,7 +10,9 @@ namespace LoginProjectDomain.Interfaces.IServices
 {
     public interface ILatestNewsService
     {
-        Task<List<LastNewsViewModel>> GetAllNewsAsync();
-        void Add(LastNewsViewModel model);
+        Task<List<LatestNewsViewModelList>> GetAllNewsAsync();
+        Task<List<LatestNewsViewModelWeblog>> GetAllNewsBlogPage();
+        void Add(LatestNewsViewModelAdd model);
+        LatestNewsViewModelBlog GetNewsById(int id);
     }
 }

@@ -1,12 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LoginProjectDomain.Interfaces.IServices;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LoginProjectUI.Controllers
 {
     public class BlogController : Controller
     {
-        public IActionResult Index()
+        private readonly ILatestNewsService _latestNewsService;
+
+        public BlogController(ILatestNewsService latestNewsService)
         {
-            return View();
+            _latestNewsService=latestNewsService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var news =await _latestNewsService.GetAllNewsBlogPage();
+            return View(news);
+        }
+
+        
+        public IActionResult Details(int id)
+        {
+            var news = _latestNewsService.GetNewsById(id);
+            return View(news);
         }
     }
 }

@@ -1,12 +1,6 @@
 ﻿using LoginProjectDomain.Interfaces.IRepositories;
 using LoginProjectDomain.Models;
-using LoginProjectDomain.ViewModels;
 using LoginProjectInfrastructure.Contexts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LoginProjectInfrastructure.Repositories
 {
@@ -21,13 +15,31 @@ namespace LoginProjectInfrastructure.Repositories
 
         public async Task<List<LastNews>> GetAll()
         {
-            return _db.LatestNews.ToList();
+            var result = _db.LatestNews.OrderByDescending(n => n.NewsDate).Take(3).ToList();
+            return result;
         }
+        public async Task<List<LastNews>> GetAllBlogPage()
+        {
+            var result = _db.LatestNews.ToList();
+            return result;
+        }
+
 
         public void Add(LastNews news)
         {
             _db.LatestNews.Add(news);
             _db.SaveChanges();
         }
+
+        public LastNews GetNewsById(int id)
+        {
+            var foundLastNews = new LastNews();
+            if (_db.LatestNews.Any(l => l.Id == id))
+            {
+                foundLastNews =  _db.LatestNews.First(l => l.Id == id);
+            }
+            return foundLastNews;
+        }
+
     }
 }

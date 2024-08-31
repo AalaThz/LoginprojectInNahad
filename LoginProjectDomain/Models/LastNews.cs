@@ -19,6 +19,8 @@ namespace LoginProjectDomain.Models
         public string Title { get; set; } = string.Empty;
         [Display(Name ="متن خبر")]
         public string NewsText { get; set; } = string.Empty ;
+        [Display(Name = "خلاصه خبر")]
+        public string NewsTextSummary { get; set; } = string.Empty;
         public string? Image { get; set; }
     }
 }

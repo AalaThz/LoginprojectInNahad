@@ -1,0 +1,55 @@
+﻿@using LoginProjectDomain.ViewModels
+@model LatestNewsViewModelBlog
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Index";    // Layout = "/Views/Shared/Blog/_BlogLayout.cshtml";
+    Layout = "/Views/Shared/Blog/_BlogLayout.cshtml";
+
+}
+
+<div class="col-xl-9  order-xl-1 order-0 mb-3">
+    <div class="card">
+        <div class="card-header">
+            <h2>نمایش <span class="text-primary">جزئیات</span></h2>
+        </div>
+        <div class="card-body p-sm-4">
+            <div class="item mb-4">  
+
+                <div class="row">
+                    <div class="col-lg-12 mb-3 text-justify ">
+                        <a href="#" class="mb-3"><h2>@Model.Title</h2></a>
+                        <img src="/Theme/images/blog/@Model.Image" alt="" class="my-4 blogimg radius15">
+                       <p>@Model.NewsText</p>
+                        @* <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته</p> *@
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="float-left">
+                            <a class="btn bg-light py-1 px-4 m-1 fa12 radius25" href="#"><i class="fal fa-share"></i></a>
+                            <a class="btn bg-light py-1 px-4 m-1 fa12 radius25" href="#"><i class="fal fa-share-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="comment p-md-3 mt-3">
+                            <h6 class="IRANSans-Bold pl-2 ml-3 IRANSansWeb_Medium">ارسال دیدگاه :</h6>
+                            <img src="Img/avatar.jpg" class="img-fluid my-2 rounded-circle">
+                            <div class="form-group">
+                                <input class="form-control w-75 mb-3" type="text" placeholder="نـام">
+                                <input class="form-control w-75 mb-3" type="email" placeholder="ایـمیل">
+                                <textarea class="form-control area" cols="60" rows="9" placeholder="دیدگاه" style="height: 150px!important"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning">ارسـال<i class="fal fa-paper-plane mr-2"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

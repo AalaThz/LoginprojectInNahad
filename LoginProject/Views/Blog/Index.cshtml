@@ -1,8 +1,155 @@
-﻿
+﻿@using LoginProjectDomain.ViewModels
+@model List<LatestNewsViewModelWeblog>
 @{
     ViewData["Title"] = "Index";
     Layout = "/Views/Shared/Blog/_BlogLayout.cshtml";
+    //Layout = null;
 }
 
-<h1>Index</h1>
+<div class="col-xl-9  order-xl-1 order-0 mb-4">
+
+    <div class="row">
+       @*  <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post10.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">پرورش گل و گیاه</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div> *@
+
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card">
+                    <a href="blog_destails.html"><img class="card-img-top" src="/Theme/images/blog/@item.Image" alt="Card image"></a>
+                    <div class="card-body">
+                        <a asp-action="Details" asp-controller="Blog" asp-route-id="@item.Id" class="fw-bold h5">@item.Title</a>
+
+                        @* <h2 class="IRANSans_Bold"><a href="blog_destails.html">@item.Title</a></h2> *@
+                        @* <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span> *@
+                        <p>
+                            @item.NewsTextSummary
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+        @*----------------------------------------------------------------------*@
+        @* <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post6.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">آموزش آشپزی با هانا</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post7.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">بالشتک باحال</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post13.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">بالشتک باحال</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post5.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">آموزش آشپزی با هانا</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post11.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">پرورش گل و گیاه</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post7.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">بالشتک باحال</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post12.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">آموزش آشپزی با هانا</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card">
+                <a href="blog_destails.html"><img class="card-img-top" src="Img/blog-post1.jpg" alt="Card image"></a>
+                <div class="card-body">
+                    <h2 class="IRANSans_Bold"><a href="blog_destails.html">پرورش گل و گیاه</a></h2>
+                    <span class="text-primary fa12 IRANSans_Medium"><a href="#">دسته بندی نشده</a></span>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان وب و گرافیک است…
+                    </p>
+                </div>
+            </div>
+        </div> *@
+        @*----------------------------------------------------------------------*@
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 text-center mx-auto">
+            <ul class="pagination  justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item "><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item "><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 

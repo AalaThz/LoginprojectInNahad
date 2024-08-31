@@ -3,18 +3,28 @@
   "WorkspaceRootPath": "E:\\LoginProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\shared\\blog\\_bloglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\shared\\blog\\_bloglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|e:\\loginproject\\loginproject\\views\\shared\\blog\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\views\\shared\\blog\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33C532CA-A2EC-4068-8606-D5B333CB2190}|LoginProjectCore\\LoginProjectCore.csproj|E:\\LoginProject\\loginprojectcore\\services\\latestnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C532CA-A2EC-4068-8606-D5B333CB2190}|LoginProjectCore\\LoginProjectCore.csproj|solutionrelative:loginprojectcore\\services\\latestnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|E:\\LoginProject\\loginproject\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9341BBA2-71F5-41D4-85B8-61F65211572D}|LoginProjectDomain\\LoginProjectDomain.csproj|E:\\LoginProject\\loginprojectdomain\\viewmodels\\latestnewsviewmodelweblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9341BBA2-71F5-41D4-85B8-61F65211572D}|LoginProjectDomain\\LoginProjectDomain.csproj|solutionrelative:loginprojectdomain\\viewmodels\\latestnewsviewmodelweblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|E:\\LoginProject\\loginproject\\models\\component\\lastnewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\models\\component\\lastnewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|E:\\LoginProject\\loginproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,54 +47,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Styles.cshtml",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
-              "RelativeDocumentMoniker": "LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
-              "RelativeToolTip": "LoginProject\\Views\\Shared\\Blog\\_Styles.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T12:14:52.748Z",
-              "EditorCaption": ""
+              "Title": "LatestNewsService.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProjectCore\\Services\\LatestNewsService.cs",
+              "RelativeDocumentMoniker": "LoginProjectCore\\Services\\LatestNewsService.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProjectCore\\Services\\LatestNewsService.cs",
+              "RelativeToolTip": "LoginProjectCore\\Services\\LatestNewsService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:24:22.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_BlogLayout.cshtml",
-              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
-              "RelativeDocumentMoniker": "LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
-              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
-              "RelativeToolTip": "LoginProject\\Views\\Shared\\Blog\\_BlogLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "LoginProject\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "LoginProject\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T12:08:24.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "blog_destails.html",
-              "DocumentMoniker": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
-              "RelativeDocumentMoniker": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
-              "ToolTip": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
-              "RelativeToolTip": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog_destails.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-28T12:07:03.482Z",
+              "WhenOpened": "2024-08-31T12:24:00.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "blog.html",
-              "DocumentMoniker": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
-              "RelativeDocumentMoniker": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
-              "ToolTip": "E:\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
-              "RelativeToolTip": "..\\\u0642\u0627\u0644\u0628 \u0627\u0645\u0627\u062F\u0647\\\u0642\u0627\u0644\u0628 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647\u06CC Lezir\\shamim-html-template-main-1.0\\17222_Shamim\\blog.html",
-              "ViewState": "AQIAAHgCAAAAAAAAAAAqwJYCAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-28T12:06:50.258Z",
-              "EditorCaption": ""
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Controllers\\BlogController.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "LoginProject\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:23:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LatestNewsViewModelWeblog.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProjectDomain\\ViewModels\\LatestNewsViewModelWeblog.cs",
+              "RelativeDocumentMoniker": "LoginProjectDomain\\ViewModels\\LatestNewsViewModelWeblog.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProjectDomain\\ViewModels\\LatestNewsViewModelWeblog.cs",
+              "RelativeToolTip": "LoginProjectDomain\\ViewModels\\LatestNewsViewModelWeblog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:22:40.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LastNewsViewComponent.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Models\\Component\\LastNewsViewComponent.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Models\\Component\\LastNewsViewComponent.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Models\\Component\\LastNewsViewComponent.cs",
+              "RelativeToolTip": "LoginProject\\Models\\Component\\LastNewsViewComponent.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:51:07.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\LoginProject\\LoginProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\LoginProject\\LoginProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:37:37.442Z"
             }
           ]
         }
