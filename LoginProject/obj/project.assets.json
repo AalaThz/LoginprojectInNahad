@@ -13614,11 +13614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LoginProject\\LoginProject\\LoginProjectUI.csproj",
+      "projectUniqueName": "D:\\LoginProject\\LoginProject\\LoginProjectUI.csproj",
       "projectName": "LoginProjectUI",
-      "projectPath": "E:\\LoginProject\\LoginProject\\LoginProjectUI.csproj",
+      "projectPath": "D:\\LoginProject\\LoginProject\\LoginProjectUI.csproj",
       "packagesPath": "C:\\Users\\taherzadeh.a\\.nuget\\packages\\",
-      "outputPath": "E:\\LoginProject\\LoginProject\\obj\\",
+      "outputPath": "D:\\LoginProject\\LoginProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -13633,17 +13633,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj": {
-              "projectPath": "E:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj"
+            "D:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj": {
+              "projectPath": "D:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj"
             },
-            "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj": {
-              "projectPath": "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj"
+            "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj": {
+              "projectPath": "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj"
             }
           }
         }
@@ -13701,7 +13702,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

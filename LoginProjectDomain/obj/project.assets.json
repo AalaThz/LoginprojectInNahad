@@ -7168,11 +7168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj",
+      "projectUniqueName": "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj",
       "projectName": "LoginProjectDomain",
-      "projectPath": "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj",
+      "projectPath": "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj",
       "packagesPath": "C:\\Users\\taherzadeh.a\\.nuget\\packages\\",
-      "outputPath": "E:\\LoginProject\\LoginProjectDomain\\obj\\",
+      "outputPath": "D:\\LoginProject\\LoginProjectDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7187,6 +7187,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7235,7 +7236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

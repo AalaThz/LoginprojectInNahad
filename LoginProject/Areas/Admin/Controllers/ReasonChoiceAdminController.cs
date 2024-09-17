@@ -42,7 +42,7 @@ namespace LoginProjectUI.Areas.Admin.Controllers
             return RedirectToAction("List");
         }
 
-
+        //Get
         public async Task<IActionResult> Update(int id)
         {
             var find = await _reasonChoiceService.GetByIdAsync(id);
@@ -74,6 +74,7 @@ namespace LoginProjectUI.Areas.Admin.Controllers
             await _reasonChoiceService.UpdateAsync(model);
             return RedirectToAction("List");
         }
+
 
         public async Task<IActionResult> Delete(int id)
         {

@@ -17,7 +17,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">رکورد اصلی</h3>
+                            <h3 class="card-title">لیست خبرها</h3>
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -45,11 +45,12 @@
                                         <tr>
                                             <th>شناسه</th>
                                             <th>عنوان</th>
-                                            <th>متن خبر</th>
+                                            @* <th>متن خبر</th> *@
                                             <th>خلاصه خبر</th>
                                             <th>تاریخ خبر</th>
                                             <th>نام کاربر</th>
                                             <th>تصویر خبر</th>
+                                            <th>جزئیات</th>
 
                                         </tr>
 
@@ -61,11 +62,13 @@
                                                 <tr>
                                                     <td>@item.Id</td>
                                                     <td>@item.Title</td>
-                                                    <td>@item.NewsText</td>
+                                                   @*  <td>@item.NewsText</td> *@
                                                     <td>@item.NewsTextSummary</td>
                                                     <td>@item.NewsDate</td>
                                                     <td>@item.UserName</td>
-                                                    <td>@item.Image</td>
+                                                    <td>
+                                                        <img src="/Blog/Img/@item.ImageName" width="100" height="100" class="img-thumbnail" />
+                                                    </td>
 
                                                     <td>
                                                         @* <a asp-controller="ReasonChoiceAdmin" asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">ویرایش</a> | *@

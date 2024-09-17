@@ -19,7 +19,7 @@ namespace LoginProjectUI.Models.Component
         public IViewComponentResult Invoke()
         {
             //Using GetAwaiter().GetResult() to synchronously wait on an asynchronous
-            var news = _lastNewsService.GetAllNewsAsync().GetAwaiter().GetResult();
+            var news = _lastNewsService.GetThreeNewsAsync().GetAwaiter().GetResult();
             return View(news);
         }
     }

@@ -5,19 +5,19 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProjectUI", "LoginProject\LoginProjectUI.csproj", "{886F57D5-4D67-4410-9697-648547D1ABC7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{E557B50F-CE38-4F09-9E6C-FA4A667AF290}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E557B50F-CE38-4F09-9E6C-FA4A667AF290}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProjectDomain", "LoginProjectDomain\LoginProjectDomain.csproj", "{9341BBA2-71F5-41D4-85B8-61F65211572D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Infrastructure", "04.Infrastructure", "{78DBE306-9693-404E-ABE3-97FCCC308283}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{78DBE306-9693-404E-ABE3-97FCCC308283}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProjectInfrastructure", "LoginProjectInfrastructure\LoginProjectInfrastructure.csproj", "{C00A628C-FB50-4C61-AC12-967CD9A11478}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{073C5F80-A556-4A5C-A324-B7DAFC617610}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{073C5F80-A556-4A5C-A324-B7DAFC617610}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Core", "02.Core", "{A48EAD2B-D9E8-48F2-B602-521F899F7747}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A48EAD2B-D9E8-48F2-B602-521F899F7747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginProjectCore", "LoginProjectCore\LoginProjectCore.csproj", "{33C532CA-A2EC-4068-8606-D5B333CB2190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginProjectCore", "LoginProjectCore\LoginProjectCore.csproj", "{33C532CA-A2EC-4068-8606-D5B333CB2190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

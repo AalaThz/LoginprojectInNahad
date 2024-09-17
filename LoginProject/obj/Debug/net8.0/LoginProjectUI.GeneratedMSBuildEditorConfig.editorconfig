@@ -17,203 +17,211 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginProjectUI
 build_property.RootNamespace = LoginProjectUI
-build_property.ProjectDir = E:\LoginProject\LoginProject\
+build_property.ProjectDir = D:\LoginProject\LoginProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\LoginProject\LoginProject
+build_property.MSBuildProjectDirectory = D:\LoginProject\LoginProject
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Home/Index.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/Add.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGF0ZXN0TmV3c0FkbWluXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/List.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGF0ZXN0TmV3c0FkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGF0ZXN0TmV3c0FkbWluXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Add.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/LatestNewsAdmin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGF0ZXN0TmV3c0FkbWluXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/ChoiceList.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/ChoiceList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cQ2hvaWNlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Edit.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/List.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Save.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Save.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cU2F2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Update.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/ReasonChoiceAdmin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uQ2hvaWNlQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Header.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_MetaTags.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_MetaTags.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9NZXRhVGFncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Scripts.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Sidebar.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Styles.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/Shared/_Styles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TdHlsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/LoginProject/LoginProject/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Account/Login.cshtml]
+[D:/LoginProject/LoginProject/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Account/Logout.cshtml]
+[D:/LoginProject/LoginProject/Views/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Blog/Details.cshtml]
+[D:/LoginProject/LoginProject/Views/Blog/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Blog/Index.cshtml]
+[D:/LoginProject/LoginProject/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Home/Add.cshtml]
+[D:/LoginProject/LoginProject/Views/Home/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Home/Index.cshtml]
+[D:/LoginProject/LoginProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Home/Privacy.cshtml]
+[D:/LoginProject/LoginProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/HostInfo/List.cshtml]
+[D:/LoginProject/LoginProject/Views/HostInfo/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdEluZm9cTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Login/GetUser.cshtml]
+[D:/LoginProject/LoginProject/Views/Login/GetUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2V0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Login/Login.cshtml]
+[D:/LoginProject/LoginProject/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Login/SearchById.cshtml]
+[D:/LoginProject/LoginProject/Views/Login/SearchById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2VhcmNoQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Blog/_BlogLayout.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Blog/_BlogLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dcX0Jsb2dMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Blog/_Header.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Blog/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dcX0hlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Blog/_MetaTags.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Blog/_MetaTags.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dcX01ldGFUYWdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Blog/_Styles.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Blog/_Styles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJsb2dcX1N0eWxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Components/LastNewsVM/Default.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Components/LastNewsVM/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGFzdE5ld3NWTVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Components/ReasonChoiceVM/Default.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Components/ReasonChoiceVM/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVhc29uQ2hvaWNlVk1cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Components/TrafficHostVM/Default.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Components/TrafficHostVM/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJhZmZpY0hvc3RWTVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/Error.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Footer.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Header.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_LayoutDefault.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_LayoutDefault.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_MetaTags.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_MetaTags.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZXRhVGFncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Modals.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Modals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Scripts.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Styles.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Styles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/UserInfo/SearchById.cshtml]
+[D:/LoginProject/LoginProject/Views/UserInfo/SearchById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9cU2VhcmNoQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/_ViewImports.cshtml]
+[D:/LoginProject/LoginProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/_ViewStart.cshtml]
+[D:/LoginProject/LoginProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LoginProject/LoginProject/Views/Shared/_Layout.cshtml]
+[D:/LoginProject/LoginProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w3nbmpz8ld

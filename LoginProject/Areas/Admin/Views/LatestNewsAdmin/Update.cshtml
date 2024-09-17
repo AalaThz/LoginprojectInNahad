@@ -1,0 +1,127 @@
+﻿@using LoginProjectDomain.ViewModels
+@model LatestNewsViewModelUpdate
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Views/Shared/Blog/_BlogLayout.cshtml";
+
+}
+
+
+<div class="col-xl-9  order-xl-1 order-0 mb-3">
+    <div class="card">
+
+        <div class="card-header">
+            <h2>نمایش <span class="text-primary">جزئیات</span></h2>
+        </div>
+        <div class="card-body p-sm-4">
+            <div class="item mb-4">
+                <form asp-action="Update" method="post" enctype="multipart/form-data">
+
+                    <div class="row">
+
+                      @*   <form asp-action="Update" method="post" enctype="multipart/form-data">
+                            <input type="hidden" asp-for="Id" />
+                            <input asp-for="Title" />
+                            <input asp-for="NewsText" />
+                            <input asp-for="NewsTextSummary" />
+                            <input type="file" asp-for="ImageFile" />
+                            <button type="submit">به‌روزرسانی</button>
+                        </form> *@
+
+
+
+                        <div class="col-lg-12 mb-3 text-justify ">
+                            @* <a href="#" class="mb-3"><h2>@Model.Title</h2></a> *@
+
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-group">
+                                <label asp-for="NewsDate">تاریخ خبر</label>
+                                @* <input type="text" asp-for="Title" class="form-control" name="Title" id="Title"> *@
+                                <input type="text" asp-for="NewsDate" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="UserName">نام کاربر</label>
+                                @* <input type="text" asp-for="Title" class="form-control" name="Title" id="Title"> *@
+                                <input type="text" asp-for="UserName" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Title"> عنوان</label>
+                                @* <input type="text" asp-for="Title" class="form-control" name="Title" id="Title"> *@
+                                <input type="text" asp-for="Title" class="form-control" />
+                            </div>
+
+                            <!--Existing Image-->
+                            <div class="mb-3">
+                                <img src="/Theme/images/blog/@Model.Image" alt="" class="my-4 blogimg radius15 img-thumbnail">
+                                <div>
+                                    @* <label for="Image">choose file to download</label>
+                                    <input type="file" name="Image" id="Image" class="form-control mb-4" /> *@
+                                    <input type="file" asp-for="ImageFile" class="btn btn-primary" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="NewsText">توضیحات</label>
+                                @* <input type="text" asp-for="NewsText" class="form-control"> *@
+                                <textarea name="NewsText" asp-for="NewsText" class="form-control">@Model.NewsText</textarea>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">به‌روزرسانی</button>
+                        @* <button type="submit" class="btn btn-primary">ذخیره تغییرات</button> *@
+                    </div>
+                </form>
+
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="float-left">
+                            <a class="btn bg-light py-1 px-4 m-1 fa12 radius25" href="#"><i class="fal fa-share"></i></a>
+                            <a class="btn bg-light py-1 px-4 m-1 fa12 radius25" href="#"><i class="fal fa-share-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="comment p-md-3 mt-3">
+                            <h6 class="IRANSans-Bold pl-2 ml-3 IRANSansWeb_Medium">ارسال دیدگاه :</h6>
+                            <img src="/Blog/Img/avatar.jpg" class="img-fluid my-2 rounded-circle">
+
+
+
+                            <div class="form-group">
+                                <input class="form-control w-75 mb-3" type="text" placeholder="نـام">
+                                <input class="form-control w-75 mb-3" type="email" placeholder="ایـمیل">
+                                <textarea class="form-control area" cols="60" rows="9" placeholder="دیدگاه" style="height: 150px!important"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning">ارسـال<i class="fal fa-paper-plane mr-2"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+@section scripts
+{
+    @* <script src="~/AdminTheme/ckeditor/ckeditor.js"></script> *@
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#NewsText'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}

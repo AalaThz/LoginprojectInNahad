@@ -23,3 +23,16 @@ E:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.dll
 E:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\refint\LoginProjectDomain.dll
 E:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.pdb
 E:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\ref\LoginProjectDomain.dll
+D:\LoginProject\LoginProjectDomain\bin\Debug\net8.0\LoginProjectDomain.deps.json
+D:\LoginProject\LoginProjectDomain\bin\Debug\net8.0\LoginProjectDomain.dll
+D:\LoginProject\LoginProjectDomain\bin\Debug\net8.0\LoginProjectDomain.pdb
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.csproj.AssemblyReference.cache
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.AssemblyInfoInputs.cache
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.AssemblyInfo.cs
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.csproj.CoreCompileInputs.cache
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.sourcelink.json
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.dll
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\refint\LoginProjectDomain.dll
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\LoginProjectDomain.pdb
+D:\LoginProject\LoginProjectDomain\obj\Debug\net8.0\ref\LoginProjectDomain.dll

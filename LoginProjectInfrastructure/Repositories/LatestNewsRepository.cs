@@ -13,25 +13,33 @@ namespace LoginProjectInfrastructure.Repositories
             _db = db;
         }
 
+        //for home page
         public async Task<List<LastNews>> GetAll()
         {
             var result = _db.LatestNews.OrderByDescending(n => n.NewsDate).Take(3).ToList();
             return result;
         }
-        public async Task<List<LastNews>> GetAllBlogPage()
+
+        public async Task<List<LastNews>> GetAllAdmin()
+        {
+            var result = _db.LatestNews.OrderByDescending(n => n.NewsDate).ToList();
+            return result;
+        }
+
+        public async Task<List<LastNews>> GetAllNewsBlogPage()
         {
             var result = _db.LatestNews.ToList();
             return result;
         }
 
 
-        public void Add(LastNews news)
+        public async Task Add(LastNews news)
         {
             _db.LatestNews.Add(news);
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
         }
 
-        public LastNews GetNewsById(int id)
+        public async Task<LastNews> GetNewsById(int id)
         {
             var foundLastNews = new LastNews();
             if (_db.LatestNews.Any(l => l.Id == id))
@@ -41,5 +49,19 @@ namespace LoginProjectInfrastructure.Repositories
             return foundLastNews;
         }
 
+        public async Task Update(LastNews news)
+        {
+            _db.LatestNews.Update(news);
+            await _db.SaveChangesAsync();
+        }
+
+        public async Task Delete(LastNews news)
+        {
+            var foundNews =await GetNewsById(news.Id);
+            if (foundNews != null)
+            {
+               _db.LatestNews.Remove(foundNews);
+            }
+        }
     }
 }

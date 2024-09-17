@@ -18,9 +18,9 @@ namespace LoginProjectUI.Controllers
         }
 
         
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var news = _latestNewsService.GetNewsById(id);
+            var news =await _latestNewsService.GetNewsById(id);
             return View(news);
         }
     }

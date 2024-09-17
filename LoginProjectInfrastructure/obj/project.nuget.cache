@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qh4dSdBfP1EhKFH93BXuY0BDdxV7JoLw68P7LY9DHlHGyWcU/iXnLtSFLwXWEOFu+SMXWdgEJza1S1qdU39G9g==",
+  "dgSpecHash": "Gp4/sp88bNc=",
   "success": true,
-  "projectFilePath": "E:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj",
+  "projectFilePath": "D:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taherzadeh.a\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\taherzadeh.a\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

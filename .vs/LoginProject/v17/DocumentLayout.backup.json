@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LoginProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33C532CA-A2EC-4068-8606-D5B333CB2190}|LoginProjectCore\\LoginProjectCore.csproj|d:\\loginproject\\loginprojectcore\\services\\latestnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C532CA-A2EC-4068-8606-D5B333CB2190}|LoginProjectCore\\LoginProjectCore.csproj|solutionrelative:loginprojectcore\\services\\latestnewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|d:\\loginproject\\loginproject\\areas\\admin\\controllers\\latestnewsadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\areas\\admin\\controllers\\latestnewsadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|d:\\loginproject\\loginproject\\areas\\admin\\views\\latestnewsadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{886F57D5-4D67-4410-9697-648547D1ABC7}|LoginProject\\LoginProjectUI.csproj|solutionrelative:loginproject\\areas\\admin\\views\\latestnewsadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\LoginProject\\LoginProject\\Areas\\Admin\\Views\\LatestNewsAdmin\\Update.cshtml",
+              "RelativeDocumentMoniker": "LoginProject\\Areas\\Admin\\Views\\LatestNewsAdmin\\Update.cshtml",
+              "ToolTip": "D:\\LoginProject\\LoginProject\\Areas\\Admin\\Views\\LatestNewsAdmin\\Update.cshtml",
+              "RelativeToolTip": "LoginProject\\Areas\\Admin\\Views\\LatestNewsAdmin\\Update.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCgAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:16:21.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LatestNewsService.cs",
+              "DocumentMoniker": "D:\\LoginProject\\LoginProjectCore\\Services\\LatestNewsService.cs",
+              "RelativeDocumentMoniker": "LoginProjectCore\\Services\\LatestNewsService.cs",
+              "ToolTip": "D:\\LoginProject\\LoginProjectCore\\Services\\LatestNewsService.cs",
+              "RelativeToolTip": "LoginProjectCore\\Services\\LatestNewsService.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:13:16.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LatestNewsAdminController.cs",
+              "DocumentMoniker": "D:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\LatestNewsAdminController.cs",
+              "RelativeDocumentMoniker": "LoginProject\\Areas\\Admin\\Controllers\\LatestNewsAdminController.cs",
+              "ToolTip": "D:\\LoginProject\\LoginProject\\Areas\\Admin\\Controllers\\LatestNewsAdminController.cs",
+              "RelativeToolTip": "LoginProject\\Areas\\Admin\\Controllers\\LatestNewsAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:03:11.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

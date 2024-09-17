@@ -8794,11 +8794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj",
+      "projectUniqueName": "D:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj",
       "projectName": "LoginProjectCore",
-      "projectPath": "E:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj",
+      "projectPath": "D:\\LoginProject\\LoginProjectCore\\LoginProjectCore.csproj",
       "packagesPath": "C:\\Users\\taherzadeh.a\\.nuget\\packages\\",
-      "outputPath": "E:\\LoginProject\\LoginProjectCore\\obj\\",
+      "outputPath": "D:\\LoginProject\\LoginProjectCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8813,17 +8813,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj": {
-              "projectPath": "E:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj"
+            "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj": {
+              "projectPath": "D:\\LoginProject\\LoginProjectDomain\\LoginProjectDomain.csproj"
             },
-            "E:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj": {
-              "projectPath": "E:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj"
+            "D:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj": {
+              "projectPath": "D:\\LoginProject\\LoginProjectInfrastructure\\LoginProjectInfrastructure.csproj"
             }
           }
         }
@@ -8864,7 +8865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

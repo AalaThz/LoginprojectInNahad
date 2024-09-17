@@ -15,6 +15,6 @@ namespace LoginProjectDomain.ViewModels
         public string NewsText { get; set; } = string.Empty;
         [Display(Name = "خلاصه خبر")]
         public string NewsTextSummary { get; set; } = string.Empty;
-        public string? Image { get; set; }
+        public string? ImageName { get; set; }
     }
 }

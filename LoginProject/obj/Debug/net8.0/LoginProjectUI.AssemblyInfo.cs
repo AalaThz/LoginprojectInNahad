@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginProjectUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2ff2d931db574bc215ab7ca614c518892c80814")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed1746584a8c307530b6989f9c56f3a13fb6877")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginProjectUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginProjectUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

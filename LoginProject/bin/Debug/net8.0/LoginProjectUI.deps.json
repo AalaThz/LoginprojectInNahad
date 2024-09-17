@@ -2740,12 +2740,6 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -2837,7 +2831,10 @@
           "LoginProjectInfrastructure": "1.0.0"
         },
         "runtime": {
-          "LoginProjectCore.dll": {}
+          "LoginProjectCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LoginProjectDomain/1.0.0": {
@@ -2846,7 +2843,10 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "runtime": {
-          "LoginProjectDomain.dll": {}
+          "LoginProjectDomain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LoginProjectInfrastructure/1.0.0": {
@@ -2855,7 +2855,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"
         },
         "runtime": {
-          "LoginProjectInfrastructure.dll": {}
+          "LoginProjectInfrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

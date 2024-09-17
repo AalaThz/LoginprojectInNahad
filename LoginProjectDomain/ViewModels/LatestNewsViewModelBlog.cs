@@ -11,7 +11,6 @@ namespace LoginProjectDomain.ViewModels
     {
         public int Id { get; set; }
         
-        
         [Display(Name = "عنوان خبر")]
         public string Title { get; set; } = string.Empty;
         [Display(Name = "متن خبر")]
